@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Educacion</title>
+</head>
+<body>
+	<header>
+		<svg width="200px" height="100px" wiewBox="0 0 200 100">
+			<image width="200px" height="100px" xlink:href="../img/RM.svg"></image>	
+		</svg>
+		<h1>Hoja de Vida</h1>
+		<p><strong>Nombres: </strong>Edison Ricardo</p>
+		<p><strong>Apellidos: </strong>Huaripoma Merino</p>
+		<p><strong>Fecha: </strong>24/01/2018</p>
+		<p><strong>Lugar de Nacimiento: </strong>Distrito de Villa Maria del Triunfo, Lima Perú</p>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="../index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+	<h2>Educación</h2>
+	<table border="1" cellspacing=0 cellpadding=2 bordercolor="#000">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2013</td>
+				<td>Galeno Lima-Sur</td>
+				<td>Lima-Perú</td>
+				<td>Sí</td>
+			</tr>
+			<tr>
+				<td>2015</td>
+				<td>SENATI</td>
+				<td>Lima-Perú</td>
+				<td>No</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<h2>Agregar Estudios</h2>
+	<form>
+		<label>Año</label>
+		<select>
+			<option>2010</option>
+			<option>2011</option>
+			<option>2012</option>
+			<option>2013</option>
+			<option>2014</option>
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+			<option>2018</option>
+		</select><br/>
+
+		<label>Intitución</label>
+		<input type="text" name="inst" required><br/>
+
+		<label>Lugar</label>
+		<textarea name="lugar" required=""></textarea><br/>
+
+		<label>¿Culminó?</label>
+		<input type="radio" name="opc" value="Si" checked><label>Sí</label>
+		<input type="radio" name="opc" value="No"><label>No</label><br/>
+
+		<input type="submit" value="Enviar">
+	</form>
+	<footer>
+		<h2>Contactos</h2>
+		<ul>
+			<li><p><strong>Email: </strong><a href="mailto:merinor679@gmail.com?subject">merinor679@gmail.com</a></p></li>
+			<li><p><strong>Teléfono: </strong>+51 923924956</p></li>
+			<li><p><strong>Dirección: </strong>Distrito de Villa Maria del Triunfo, Lima-Perú</p></li>
+		</ul>		
+	</footer>
+</body>
+</html>
